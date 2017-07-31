@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="accessiblity_permission_privacy">应用加密</string>
+    <string name="accessiblity_permission_startup">自启动管理</string>
+    <string name="accessiblity_permission_startup_1_2">自启动管理</string>
+    <string name="accessiblity_permission_startup_1_3">自启动管理</string>
+    <string name="accessiblity_permission_touchpal">permission</string>
+    <string name="accessiblity_permission_toast">悬浮窗管理</string>
+    <string name="accessiblity_permission_app">应用</string>
+    <string name="accessiblity_permission_trust_app">我信任该应用</string>
+    <string name="accessiblity_permission_app_permission">应用权限管理</string>
+    <string name="accessiblity_permission_app_permission_order">按应用程序管理</string>
+    <string name="accessiblity_permission_app_mananer">应用程序管理</string>
+    <string name="accessiblity_permission_app_program">应用程序</string>
+    <string name="accessiblity_permission_add_app">添加应用</string>
+    <string name="accessiblity_permission_power">电池</string>
+    <string name="accessiblity_permission_power_oppo_v6">低电量模式</string>
+    <string name="accessiblity_permission_power_setting">省电设置</string>
+    <string name="accessiblity_permission_background_setting">纯净后台名单设置</string>
+    <string name="accessiblity_permission_background_manager">纯净后台应用管控</string>
+    <string name="accessiblity_permission_power_protect">耗电保护</string>
+    <string name="accessiblity_permission_other">其他</string>
+    <string name="accessiblity_permission_bacground_1_2">后台冻结</string>
+    <string name="accessiblity_permission_exception_1_2">检测到异常时自动优化</string>
+    <string name="accessiblity_permission_bacground">后台冻结</string>
+    <string name="accessiblity_permission_exception">检测到异常时自动优化</string>
+    <string name="accessiblity_permission_exception_oppo_v6">异常耗电自动优化</string>
+    <string name="accessiblity_permission_sleep_oppo_v6">深度睡眠</string>
+    <string name="accessiblity_permission_notification">通知管理</string>
+    <string name="accessiblity_permission_notification_allow">允许通知</string>
+    <string name="accessiblity_permission_service">辅助功能</string>
+    <string name="accessiblity_permission_confirm">确定</string>
+    <string name="accessiblity_permission_management">权限管理</string>
+
+    <string name="accessiblity_permission_huawei_service">辅助功能</string>
+    <string name="accessiblity_permission_huawei_app">应用</string>
+    <string name="accessiblity_permission_huawei_rights">权限</string>
+    <string name="accessiblity_permission_huawei_toast_management">悬浮窗管理</string>
+    <string name="accessiblity_permission_huawei_autoboot">开机自</string>
+    <string name="accessiblity_permission_huawei_app_autoboot">自动启动</string>
+    <string name="accessiblity_permission_huawei_trust_app">信任此应用</string>
+    <string name="accessiblity_permission_huawei_monitor_app">受监控的应用</string>
+    <string name="accessiblity_permission_huawei_toast_window">悬浮窗</string>
+    <string name="accessiblity_permission_huawei_secondary_launch">关联启动</string>
+    <string name="accessiblity_permission_huawei_permission">权限</string>
+    <string name="accessiblity_permission_huawei_basic_permission">基础权限管理</string>
+    <string name="accessiblity_permission_huawei_app_permission">应用权限</string>
+    <string name="accessiblity_permission_huawei_single_permission">设置单项权限</string>
+    <string name="accessiblity_permission_huawei_lock_cleanup">锁屏清理</string>
+    <string name="accessiblity_permission_huawei_background_protect">受保护</string>
+    <string name="accessiblity_permission_huawei_special_tools">特色工具</string>
+    <string name="accessiblity_permission_huawei_system_manager">手机管家</string>
+    <string name="accessiblity_permission_huawei_notifications">通知管理</string>
+    <string name="accessiblity_permission_huawei_dropzones">悬浮窗管理</string>
+    <string name="accessiblity_permission_huawei_switch_allowed">已允许</string>
+
+    <string name="accessibility_permission_miuiv6_autoboot">自启动管理</string>
+    <string name="accessibility_permission_miuiv6_callphone">直接拨打电话</string>
+    <string name="accessibility_permission_miuiv6_toast">显示悬浮窗</string>
+    <string name="accessibility_permission_miuiv6_allowed">允许</string>
+    <string name="accessibility_permission_miuiv6_callphone_detial">电话</string>
+    <string name="accessibility_permission_miuiv6_toast_detial">显示悬浮窗</string>
+    <string name="accessibility_permission_miuiv6_accessibility">无障碍</string>
+    <string name="accessibility_permission_miuiv6_application">应用信息</string>
+    <string name="accessibility_permission_miuiv6_notification">自定义通知</string>
+    <string name="accessibility_permission_miuiv6_notification_open">允许通知</string>
+    <string name="accessibility_permission_miuiv6_notification_desktop">桌面图标</string>
+    <string name="accessibility_permission_miuiv6_notification_toast">悬浮通知</string>
+    <string name="accessibility_permission_miuiv6_notification_lock">锁屏</string>
+    <string name="accessibility_permission_miuiv6_permission_manager">权限管理</string>
+
+
+</resources>

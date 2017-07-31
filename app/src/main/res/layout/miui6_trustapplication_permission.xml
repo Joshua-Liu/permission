@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+
+    <ImageView
+        android:id="@+id/miui_call_permission"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="190dp"
+        android:src="@drawable/miui6_permission_call"
+        android:scaleType="fitXY"
+        />
+
+
+    <TextView
+        android:layout_alignParentRight="true"
+        android:id="@+id/oppo_permission_setting_step_one"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/miui_call_permission"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="@string/miui6_call_permission_hint"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:drawableRight="@drawable/permission_setting_pointer"
+        android:drawablePadding="10dp" />
+
+</RelativeLayout>
+

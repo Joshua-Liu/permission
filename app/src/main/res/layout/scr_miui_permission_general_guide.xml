@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_transparency_700">
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/miui_permissoin_guide_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/line_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/arrow"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/basic_text_size_4"
+        android:layout_marginTop="24dp"/>
+    <ImageView
+        android:id="@+id/guide_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line_one"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="24dp"/>
+    <ImageView
+        android:id="@+id/indicator"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/guide_pic"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/miui_hand_top"/>
+
+    <TextView
+        android:id="@+id/line_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/guide_pic"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@+id/indicator"
+        android:gravity="center_horizontal"
+        android:drawableRight="@drawable/miui_permission_allow_small"
+        android:drawablePadding="5dp"
+        android:textSize="@dimen/basic_text_size_4"/>
+</RelativeLayout>

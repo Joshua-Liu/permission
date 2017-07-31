@@ -8,4 +8,30 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="Transparent" parent="android:Theme">
+        <item name="android:windowAnimationStyle">@style/activity_trans_animation</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="activity_trans_animation">
+        <item name="android:activityOpenEnterAnimation">@anim/dialog_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/dialog_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/dialog_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/dialog_out</item>
+    </style>
+    <style name="BackgroundWithAnimation">
+        <item name="android:windowAnimationStyle">@style/activity_normal_animation</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+    <style name="activity_normal_animation">
+        <item name="android:activityOpenEnterAnimation">@anim/fav_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/fav_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/fav_left_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/fav_right_out</item>
+    </style>
 </resources>

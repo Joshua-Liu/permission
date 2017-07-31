@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:src="@drawable/huawei_permissoin_guide_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/miui_line_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/arrow"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/basic_text_size_4"
+        android:layout_marginTop="35dp"/>
+
+    <ImageView
+        android:id="@+id/guide_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/miui_line_one"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="35dp"/>
+
+    <ImageView
+        android:id="@+id/indicator"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/guide_pic"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/miui_hand_top"/>
+
+    <TextView
+        android:id="@+id/miui_line_two"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/guide_pic"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/indicator"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/basic_text_size_4"/>
+</RelativeLayout>

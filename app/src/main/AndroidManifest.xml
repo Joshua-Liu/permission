@@ -4,18 +4,57 @@
 
     <application
         android:allowBackup="true"
+        android:name=".MyApplication"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+
+        </activity>
+        <activity
+            android:name=".permission.Miui8BackgroundPermissionAnimationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".permission.MiuiPermissionGeneralGuide"
+            android:screenOrientation="portrait"
+            android:theme="@style/Transparent" />
+        <activity
+            android:name=".permission.MiuiCalllogOrContactGuide"
+            android:screenOrientation="portrait"
+            android:theme="@style/Transparent" />
+        <activity
+            android:name=".permission.OuterPermissionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".permission.OuterTwoStepPermissionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <service
+            android:name=".permission.PermissionAccessibilityService"
+            android:label="@string/permission_accessiblity_title"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/permission_accessibility" />
+        </service>
+        <activity
+            android:name=".permission.PermissionAccessibilityGuide"
+            android:screenOrientation="portrait"
+            android:theme="@style/BackgroundWithAnimation" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+            </activity>
     </application>
 
 </manifest>

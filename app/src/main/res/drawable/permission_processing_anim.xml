@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item
+        android:drawable="@drawable/open_additional_function_fixing_01"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/open_additional_function_fixing_02"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/open_additional_function_fixing_03"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/open_additional_function_fixing_04"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/open_additional_function_fixing_05"
+        android:duration="200" />
+</animation-list>

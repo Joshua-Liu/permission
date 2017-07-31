@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/leftview"
+        android:layout_width="16dp"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topview"
+        android:layout_alignParentRight="true"
+        android:background="@color/black_transparency_700"
+        />
+
+    <View
+        android:id="@+id/rightbottom"
+        android:layout_width="45dp"
+        android:layout_height="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:background="@color/black_transparency_700"
+        />
+
+
+    <View
+        android:id="@+id/highlight"
+        android:layout_width="45dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/mask_round_angle"
+        />
+
+    <View
+        android:id="@+id/topview"
+        android:layout_alignLeft="@id/highlight"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/black_transparency_700">
+    </View>
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_toLeftOf="@id/highlight"
+        android:background="@color/black_transparency_700">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="70dp"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/xiaomiv6_title"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                />
+
+            <Button
+                android:id="@+id/confirm"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/xiaomi_button_blue_bg"
+                android:text="@string/xiaomiv6_button"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/miui_hand_right"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
