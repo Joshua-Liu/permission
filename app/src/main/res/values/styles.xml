@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -11,7 +11,7 @@
     <style name="Transparent" parent="android:Theme">
         <item name="android:windowAnimationStyle">@style/activity_trans_animation</item>
         <item name="android:windowIsTranslucent">true</item>
-        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:colorBackgroundCacheHint" tools:targetApi="eclair">@null</item>
         <item name="android:windowBackground">@color/transparent</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowNoTitle">true</item>
@@ -33,5 +33,26 @@
         <item name="android:activityOpenExitAnimation">@anim/fav_left_out</item>
         <item name="android:activityCloseEnterAnimation">@anim/fav_left_in</item>
         <item name="android:activityCloseExitAnimation">@anim/fav_right_out</item>
+    </style>
+    <style name="funcbar_text_icon_style">
+        <item name="android:layout_width">@dimen/funcbar_backbtn_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/funcbar_button_color</item>
+        <item name="android:textSize">@dimen/funcbar_icon_text_size</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="funcbar_text_icon_style_asset" parent="funcbar_text_icon_style">
+        <item name="android:textColor">@color/funcbar_button_color_special</item>
+    </style>
+    <style name="dlg_standard_theme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+    <style name="DialogAnimation" parent="android:Animation" mce_bogus="1">
+        <item name="android:windowEnterAnimation">@anim/dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_out</item>
     </style>
 </resources>

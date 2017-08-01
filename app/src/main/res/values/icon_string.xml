@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="back_icon">L</string>
+    <string name="more_icon">c</string>
+    <string name="share_icon">N</string>
+    <string name="faq_icon">Y</string>
+    <string name="cross_icon">r</string>
+    <string name="add_icon">i</string>
+    <string name="dlg_close_icon">f</string>
+    <string name="guide_checkbox_checked">d</string>
+    <string name="guide_checkbox_unchecked">e</string>
+    <string name="search_icon2">X</string>
+    <string name="setting_icon">W</string>
+    <string name="plus_icon3">m</string>
+    <string name="fuwuhao_icon4">0</string>
+    <string name="shortcut_icon4">f</string>
+    <string name="font_icon4">m</string>
+    <string name="warning_icon">M</string>
+
+    <string name="rate_dialog_icon_circle">o</string>
+    <string name="rate_dialog_icon_close">f</string>
+    <string name="rate_share_icon_tips">o</string>
+    <string name="rate_header_share_icon">J</string>
+
+    <string name="rate_share_icon_wechat">r</string>
+    <string name="rate_share_icon_timeline">p</string>
+    <string name="rate_share_icon_qq">G</string>
+    <string name="rate_share_icon_qzone">c</string>
+    <string name="rate_checkbox_icon">n</string>
+    <string name="rate_share_star_icon">n</string>
+
+    <!-- find news share string -->
+    <string name="find_news_icon_wx_friend">0</string>
+    <string name="find_news_icon_wx_zone">1</string>
+    <string name="find_news_icon_qq_friend">9</string>
+    <string name="find_news_icon_qq_zone">8</string>
+    <string name="find_news_icon_clipboard">3</string>
+</resources>

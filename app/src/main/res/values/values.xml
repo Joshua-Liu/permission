@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <integer name="fav_anim_time_default">200</integer>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
 </resources>

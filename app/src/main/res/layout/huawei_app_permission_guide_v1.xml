@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/app_tab"
+        android:layout_width="164dp"
+        android:layout_height="44dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/huawei_app_permission_tab_v1"
+        />
+
+    <ImageView
+        android:id="@+id/indicator"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_tab"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/miui_hand_top"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/indicator"
+        android:layout_below="@id/app_tab"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:text="@string/huawei_app_permission_step_one_v1"
+        android:textSize="@dimen/basic_text_size_4"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/step_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/indicator"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:text="@string/huawei_app_permission_step_two"
+        android:textSize="@dimen/basic_text_size_4"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="56dp"/>
+
+    <TextView
+        android:id="@+id/find_touchpal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/step_two"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:text="@string/huawei_app_permission_find_touchpal"
+        android:textSize="@dimen/basic_text_size_6"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"/>
+
+    <RelativeLayout
+        android:id="@+id/setting_row"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_below="@id/find_touchpal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/dlg_standard_board_bg"
+        >
+
+        <ImageView
+            android:id="@+id/dialer_icon"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="12dp"
+            android:src="@drawable/icon_dialer"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/basic_text_size_5"
+            android:textColor="@color/black"
+            android:text="@string/app_name"
+            android:layout_toRightOf="@id/dialer_icon"
+            android:layout_marginLeft="12dp"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/permit_touchpal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setting_row"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:text="@string/huawei_app_permission_allow_touchpal"
+        android:textSize="@dimen/basic_text_size_6"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"/>
+
+    <RelativeLayout
+        android:id="@+id/app_row"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_below="@+id/permit_touchpal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/dlg_standard_board_bg"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/basic_text_size_5"
+            android:textColor="@color/black"
+            android:text="@string/huawei_app_permission_trust"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/basic_text_size_7"
+            android:textColor="@color/grey_500"
+            android:text="@string/huawei_app_permission_trust_all"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/huawei_guide_switch"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="18dp"
+            android:src="@drawable/huawei_guide_switch_v1"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dlg_standard_layout_padding"
+    android:paddingRight="@dimen/dlg_standard_layout_padding">
+
+    <TextView
+        android:id="@+id/permission_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:text="@string/permission_guide_exit_confirm_content"
+        android:textColor="@color/black_transparency_600"
+        android:textSize="@dimen/basic_text_size_5"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_button_empty_bg"
+            android:text="@string/permission_guide_exit_confirm_cancel_button"
+            android:textAllCaps="false"
+            android:textColor="@color/black_transparency_600"
+            android:textSize="@dimen/basic_text_size_5"/>
+
+        <View
+            android:layout_width="12dp"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_button_blue_bg"
+            android:text="@string/permission_guide_exit_confirm_confirm_buttong"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/basic_text_size_5"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="basic_text_size_0">26dp</dimen>
+    <dimen name="basic_text_size_1">24dp</dimen>
+    <dimen name="basic_text_size_2">22dp</dimen>
+    <dimen name="basic_text_size_3">20dp</dimen>
+    <dimen name="basic_text_size_3_5">19dip</dimen>
+    <dimen name="basic_text_size_4">18dp</dimen>
+    <dimen name="basic_text_size_4_5">17dip</dimen>
+    <dimen name="basic_text_size_5">16dp</dimen>
+    <dimen name="basic_text_size_5_5">15dp</dimen>
+    <dimen name="basic_text_size_6">14dp</dimen>
+    <dimen name="basic_text_size_6_5">13dp</dimen>
+    <dimen name="basic_text_size_7">12dp</dimen>
+    <dimen name="basic_text_size_8">10dp</dimen>
+	<dimen name="basic_text_size_9">8dp</dimen>
+
+	<dimen name="basic_text_size_10">10dp</dimen>
+	<dimen name="basic_text_size_12">12dp</dimen>
+	<dimen name="basic_text_size_14">14dp</dimen>
+	<dimen name="basic_text_size_16">16dp</dimen>
+	<dimen name="basic_text_size_18">18dp</dimen>
+	<dimen name="basic_text_size_20">20dp</dimen>
+	<dimen name="basic_text_size_22">22dp</dimen>
+	<dimen name="basic_text_size_24">24dp</dimen>
+	<dimen name="basic_text_size_26">26dp</dimen>
+	<dimen name="basic_text_size_28">28dp</dimen>
+	<dimen name="basic_text_size_30">30dp</dimen>
+	<dimen name="basic_text_size_32">32dp</dimen>
+	<dimen name="basic_text_size_34">34dp</dimen>
+	<dimen name="basic_text_size_36">36dp</dimen>
+	<dimen name="basic_text_size_38">38dp</dimen>
+
+    <dimen name="basic_text_size_arrow">20dp</dimen>
+	<!-- general firstary page -->
+	<dimen name="listitem_main_textsize">@dimen/basic_text_size_4_5</dimen>
+	<dimen name="listitem_alt_textsize">@dimen/basic_text_size_7</dimen>
+	<dimen name="listitem_extra_textsize">@dimen/basic_text_size_7</dimen>
+	<dimen name="listitem_date_textsize">@dimen/basic_text_size_7</dimen>
+	<dimen name="listitem_dualsim_textsize">@dimen/basic_text_size_8</dimen>
+	<dimen name="listitem_time_textsize">@dimen/basic_text_size_7</dimen>
+	<dimen name="listitem_header_textsize">@dimen/basic_text_size_6</dimen>
+	<dimen name="screen_title_textsize">@dimen/basic_text_size_3</dimen>
+	<dimen name="service_icon_text_size">40dp</dimen>
+	<dimen name="loading_text_size">16dp</dimen>
+	<dimen name="empty_hint_main_text_size">18dp</dimen>
+	<dimen name="empty_hint_alt_text_size">14dp</dimen>
+	<dimen name="empty_hint_text_size">16dp</dimen>
+	
+	
+	<!-- general sencondary page -->
+	<dimen name="secondary_listitem_main_textsize">@dimen/basic_text_size_5</dimen>
+	<dimen name="secondary_listitem_alt_textsize">@dimen/basic_text_size_7</dimen>
+	
+	<dimen name="secondary_detail_level_1">@dimen/basic_text_size_5</dimen>
+	<dimen name="secondary_detail_level_2">@dimen/basic_text_size_6</dimen>
+	<!-- general tab size -->
+	<dimen name="funcbar_sidebtn_textsize">@dimen/basic_text_size_6</dimen>
+	<dimen name="tabbar_btn_textsize">@dimen/basic_text_size_7</dimen>
+	<dimen name="two_tab_textsize">@dimen/basic_text_size_5</dimen>
+	
+	<!-- general others -->
+
+	<!-- dialer -->
+	<dimen name="phonepad_main_textsize_middle">35dp</dimen>
+	<dimen name="phonepad_switch_btn_textsize_middle">20dp</dimen>
+	<dimen name="qwertypad_main_textsize_middle">28dp</dimen>
+	<dimen name="phonepad_alt_textsize">@dimen/basic_text_size_6_5</dimen>
+	<dimen name="phonepad_plus_textsize">@dimen/basic_text_size_1</dimen>
+	<!-- contact -->
+	<dimen name="searchbar_input_textsize">@dimen/basic_text_size_5_5</dimen>
+	<dimen name="fastscroll_abc_textsize">18px</dimen>
+	<dimen name="fastscroll_position_textsize">35dp</dimen>
+	<!-- favorite -->
+	<dimen name="favitem_label_textsize">@dimen/basic_text_size_5</dimen>
+
+	<!-- detail -->
+	<dimen name="detail_back_size">@dimen/basic_text_size_1</dimen>
+	<dimen name="detail_name_size">@dimen/basic_text_size_3</dimen>
+	<dimen name="detail_action_button_size">@dimen/basic_text_size_1</dimen>
+	<dimen name="detail_calllog_main_textsize">@dimen/basic_text_size_6</dimen>
+	<dimen name="detail_calllog_date_textsize">@dimen/basic_text_size_7</dimen>
+	
+
+	
+	<!-- black list -->
+	<dimen name="filterfuncbar_filter_text_size">@dimen/screen_title_textsize</dimen>
+	<!-- tools -->
+	
+	<!-- speed dial -->
+	<dimen name="speed_dial_tag_textsize">@dimen/basic_text_size_4</dimen>
+
+	
+	<!-- dialog -->
+    <!--dialog banner-->
+    <dimen name="dlg_standard_banner_textsize">40dp</dimen>
+	<!-- dialog title -->
+    <dimen name="dlg_standard_title_textsize">20dp</dimen>
+	<!-- dialog bottom -->
+	<dimen name="dlg_standard_bottom_textsize">16dp</dimen>
+	<!-- dialog container -->
+	<dimen name="dlg_container_main_textsize">16dp</dimen>
+    <dimen name="dlg_container_secondary_textsize">14dp</dimen>
+    <dimen name="dlg_container_third_textsize">12dp</dimen>
+    <dimen name="dlg_container_input_textsize">16dp</dimen>
+    <dimen name="dlg_container_icon_textsize">24dp</dimen>
+
+	<!-- Tips -->
+	<dimen name="tips_fav_textsize">@dimen/basic_text_size_5</dimen>
+	
+	
+	<dimen name="contact_filter_subitem_textsize">@dimen/basic_text_size_4_5</dimen>
+	<dimen name="edit_person_item_content_textsize">@dimen/basic_text_size_5</dimen>
+	<dimen name="edit_person_item_content_type_textsize">@dimen/basic_text_size_6</dimen>
+	
+	<dimen name="dialog_listitem_text_size">@dimen/basic_text_size_4</dimen>
+	<dimen name="secondary_setting_page_listitem_textsize">@dimen/secondary_listitem_main_textsize</dimen>
+	<dimen name="secondary_setting_page_section_title_textsize">@dimen/basic_text_size_7</dimen>
+	
+	<!-- Default App -->
+	<dimen name="default_app_main_textsize">@dimen/secondary_detail_level_1</dimen>
+	<dimen name="default_app_fun_textsize">@dimen/secondary_detail_level_2</dimen>
+
+	<!--  in app message -->
+	<dimen name="in_app_widget_height">40dp</dimen>
+	<dimen name="in_app_widget_image_height">72dp</dimen>
+	<dimen name="in_app_widget_inner_height">40dp</dimen>
+	<dimen name="in_app_widget_shadow_height">8dp</dimen>
+	
+	<!-- Settings -->
+	<dimen name="switch_text_size">14dp</dimen>
+	<dimen name="switch_height">25dp</dimen>
+	<dimen name="preview_listitem_main_textsize">10dp</dimen>
+	<dimen name="preview_listitem_alt_textsize">6dp</dimen>
+	<dimen name="preview_listitem_extra_textsize">6dp</dimen>
+	<dimen name="preview_listitem_time_textsize">6dp</dimen>
+	<dimen name="preview_listitem_date_textsize">6dp</dimen>
+	<dimen name="block_sms_detail_btn_size">17dp</dimen>
+	<dimen name="setting_left_ttf_size">@dimen/basic_text_size_2</dimen>
+	<dimen name="arrow_margin_right_size">26dp</dimen>
+	
+    
+    <dimen name="funcbar_title_textsize">@dimen/basic_text_size_4</dimen>
+    
+    <dimen name="listitem_contact_simcard_name_textsize">8dp</dimen>
+    
+    
+	<!-- add for widget -->
+	<dimen name="app_widget_item_textsize">12sp</dimen>    
+    
+	<dimen name="voip_4_button_title_size">10dp</dimen>
+    <dimen name="voip_icon_big_size">32dp</dimen>
+	
+    <dimen name="voip_keyboard_text_size">35dp</dimen>
+
+	<!--s6 guide-->
+	<dimen name="s6_guide_margin">24dp</dimen>
+
+    <!--contacts shift-->
+    <dimen name="contacts_shift_qrcode_width">200dp</dimen>
+	<dimen name="permission_btn_title_textsize">16dp</dimen>
+	<dimen name="permission_btn_right_textsize">12dp</dimen>
+	<dimen name="permission_btn_sub_title_textsize">12dp</dimen>
+	<dimen name="permission_btn_left_icon_typefaced_textsize">22dp</dimen>
+	<dimen name="permission_btn_left_icon_textsize">16dp</dimen>
+	<dimen name="permission_top_hint_textsize">16dp</dimen>
+	<dimen name="permission_two_step_layout_textsize">16dp</dimen>
+	<dimen name="free_call_guide_button_textsize">18dp</dimen>
+	<dimen name="wcc_right_arrow_textsize">28dp</dimen>
+	<dimen name="wcc_vip_icon_textsize">30dp</dimen>
+
+
+	<dimen name="feeds_title_text_size">40dp</dimen>
+
+	<dimen name="feeds_sign_close_text_size">40dp</dimen>
+	<dimen name="voice_actor_recommend_price_size">12dp</dimen>
+
+
+</resources>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/black_transparency_500"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/s6_guide_margin"
+        android:layout_marginBottom="@dimen/s6_guide_margin"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:text="@string/enable_permission"
+        android:textColor="@color/white"
+        android:textSize="@dimen/basic_text_size_5"
+        android:background="@drawable/dialog_button_blue_bg" />
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_above="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:src="@drawable/miui_phone_background"/>
+
+        <ImageView
+            android:id="@+id/menu_hightlight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/miui_menu_highlight"
+            android:layout_marginLeft="125dp"
+            android:layout_marginStart="125dp"
+            android:visibility="invisible"
+            android:layout_marginBottom="14dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:id="@+id/miui_unlock"
+            android:src="@drawable/miui_unlock"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:scaleType="centerInside"
+            android:layout_alignTop="@+id/app_icon_layout"
+            android:layout_alignLeft="@+id/app_icon_layout"
+            android:layout_alignStart="@+id/app_icon_layout"
+            android:layout_marginLeft="9dp"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="9dp" />
+
+        <RelativeLayout
+            android:id="@+id/app_icon_layout"
+            android:layout_width="40dp"
+            android:layout_height="42dp"
+            android:layout_marginBottom="114dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginEnd="9dp"
+            android:layout_above="@+id/menu_hightlight"
+            android:layout_alignRight="@+id/menu_hightlight">
+
+            <ImageView
+                android:id="@+id/app_icon"
+                android:src="@drawable/miui_current_app_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:scaleType="centerInside"
+                />
+
+            <ImageView
+                android:id="@+id/miui_app_lock"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:src="@drawable/miui_app_lock"
+                android:scaleType="centerInside"
+                android:visibility="invisible"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/miui_app_hand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/miui_hand"
+            android:visibility="invisible"
+            android:layout_below="@+id/miui_unlock"
+            android:layout_alignLeft="@+id/miui_unlock"
+            android:layout_alignStart="@+id/miui_unlock" />
+
+        <TextView
+            android:id="@+id/step_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_marginTop="150dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:text="@string/miui_background_protect_step_one"
+            android:textSize="@dimen/basic_text_size_4"/>
+
+        <TextView
+            android:id="@+id/step_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_below="@id/step_title"
+            android:layout_centerHorizontal="true"
+            android:textColor="#3ec234"
+            android:text="@string/miui_background_protect_step_one_hint"
+            android:textSize="@dimen/basic_text_size_5"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/step_one"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="104dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="-10dp"
+        android:layout_below="@+id/content">
+
+        <ImageView
+            android:id="@+id/menu_hand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/miui_hand" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/miui_background_guide_press"
+            android:paddingLeft="15dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/basic_text_size_5"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/miui_background_guide_menu"
+            android:textColor="#3ec234"
+            android:textSize="@dimen/basic_text_size_5"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ct="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_50">
+
+    <android.by.com.permission.layout.FuncBarSecondaryView
+        android:id="@+id/funcbar_secondary"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/funcbar_height"
+        android:layout_alignParentTop="true"
+        ct:funcbarTitleText="@string/miui_permission_guide_title"
+        />
+
+    <TextView
+        android:id="@+id/line_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/funcbar_secondary"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/miui_permission_guide_line_one"
+        android:textColor="@color/black_transparency_600"
+        android:textSize="@dimen/basic_text_size_5"/>
+
+    <TextView
+        android:id="@+id/line_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line_one"
+        android:layout_centerHorizontal="true"
+        android:text="@string/miui_permission_guide_line_two"
+        android:textColor="@color/black_transparency_600"
+        android:textSize="@dimen/basic_text_size_5"/>
+
+    <Button
+        android:id="@+id/call_permission"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/line_two"
+        android:layout_marginLeft="48dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="35dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="48dp"
+        android:text="@string/miui_permission_button_call"
+        android:textColor="@color/black_transparency_900"
+        android:textSize="@dimen/basic_text_size_5"
+        android:gravity="center"
+        android:drawableLeft="@drawable/miui_permission_btn_left_icon"
+        android:background="@drawable/miui_permission_btn_bg"/>
+
+    <Button
+        android:id="@+id/autoboot_permission"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/call_permission"
+        android:layout_marginLeft="48dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="35dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="48dp"
+        android:text="@string/miui_permission_button_autoboot"
+        android:textColor="@color/black_transparency_900"
+        android:textSize="@dimen/basic_text_size_5"
+        android:gravity="center"
+        android:drawableLeft="@drawable/miui_permission_btn_left_icon"
+        android:background="@drawable/miui_permission_btn_bg"/>
+
+    <FrameLayout
+        android:id="@+id/data_permission_container"
+        android:layout_below="@+id/autoboot_permission"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp">
+        <Button
+            android:id="@+id/data_permission"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:paddingLeft="10dp"
+            android:gravity="center"
+            android:drawableLeft="@drawable/miui_permission_btn_left_icon"
+            android:background="@drawable/miui_permission_btn_bg"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:orientation="vertical">
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="60dp"
+                      android:layout_marginRight="35dp"
+                      android:textSize="@dimen/basic_text_size_5"
+                      android:gravity="center_horizontal"
+                      android:textColor="@color/black_transparency_900"
+                      android:text="@string/miui_permission_button_data_line_one"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:textSize="@dimen/basic_text_size_6_5"
+                      android:layout_marginLeft="65dp"
+                      android:textColor="@color/black_transparency_600"
+                      android:text="@string/miui_permission_button_data_line_two"/>
+        </LinearLayout>
+    </FrameLayout>
+
+
+</RelativeLayout>

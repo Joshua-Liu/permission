@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item type="id" name="delete_group"/>
+    <item type="id" name="edit_group"/>
+    
+    <item type="id" name="basic_section"/>
+    <item type="id" name="shortcuts_section"/>
+    <item type="id" name="editable_section"/>
+    <item type="id" name="others_section"/>
+    
+    <item type="id" name="detail_number_container" />
+    <item type="id" name="detail_email_container"/>
+    <item type="id" name="detail_group_container"/>
+    <item type="id" name="detail_ringtone_container"/>
+    <item type="id" name="detail_blockcall_container" /> 
+    <item type="id" name="detail_sns_container"/>
+    <item type="id" name="detail_address_container"/>
+    <item type="id" name="detail_website_container"/>
+    <item type="id" name="detail_event_container"/>
+    <item type="id" name="detail_note_container"/>
+    <item type="id" name="detail_nn_container" />
+    <item type="id" name="detail_im_container"/>
+    <item type="id" name="detail_weixin_container"/>
+    
+    <item name="detail_number_id" type="id"/>
+    <item name="detail_email_id" type="id"/>
+    <item name="detail_group_id" type="id"/>
+    <item name="detail_ringtone_id" type="id"/>
+    <item name="detail_blockcall_id" type="id"/>
+    <item name="detail_sns_id" type="id"/>
+    <item name="detail_postal_id" type="id"/>
+    <item name="detail_website_id" type="id"/>
+    <item name="detail_event_id" type="id"/>
+    <item name="detail_note_id" type="id"/>
+    <item name="detail_nn_id" type="id"/>
+    <item name="detail_im_id" type="id"/>
+    <item name="detail_org_id" type="id" />
+    <item name="detail_weixin_id" type="id"/>
+    <item name="detail_add_number" type="id"/>
+    <item name="detail_share_id" type="id"/>
+                 
+    <!-- Context Menu -->
+    <item name="add_contact" type="id" />
+	<item name="edit_before_call" type="id"/>
+	<item name="direct_call" type="id" />
+	<item name="sms_contact" type="id"/>
+	<item name="clear_contact_history" type="id"/>
+	<item name="delete_contact" type="id"/>
+	<item name="block_operation" type="id"/>
+	<item name="alipay_contact" type="id"/>
+	<item name="edit_contact" type="id"/>
+	<item name="share_contact" type="id"/>
+	<item name="copy_contact_number" type="id"/>
+	<item name="set_contact_group" type="id"/>
+	<item name="mark_unknown" type="id"/>
+	<item name="contact_add_favorite" type="id"/>
+	<item name="contact_cancel_favorite" type="id"/>
+	<item name="import_to_phone" type="id"/>
+	
+	<!-- update -->
+	<item name="update_title" type="id" />
+	<item name="sys_gesture_new" type="id"/>
+	
+	<item name="ypdetail_context_menu_editcall" type="id"/>
+	<item name="ypdetail_context_menu_copy" type="id"/>
+	<item name="ypdetail_context_menu_share" type="id"/>
+	<item name="ypdetail_context_menu_clear" type="id"/>
+	<item name="ypdetail_context_menu_report_error" type="id"/>
+	
+	<item name="gesture_guide_text" type="id" />
+	<item name="blocking_sms_key_item" type="id"/>
+    
+    <!-- add for scanExpress-->
+    <item type="id" name="auto_focus"/>
+    <item type="id" name="decode"/>
+    <item type="id" name="decode_failed"/>
+    <item type="id" name="decode_succeeded"/>
+    <item type="id" name="encode_failed"/>
+    <item type="id" name="encode_succeeded"/>
+    <item type="id" name="launch_product_query"/>
+    <item type="id" name="quit"/>
+    <item type="id" name="restart_preview"/>
+    <item type="id" name="return_scan_result"/>
+    <item type="id" name="search_book_contents_failed"/>
+    <item type="id" name="search_book_contents_succeeded"/>
+    <item type="id" name="gridview" />
+    <item type="id" name="webview" />
+    <item type="id" name="about_version_code">false</item>
+    <item type="id" name="split">false</item>
+
+	
+	<item name="contact_filter_all_item" type="id"/>
+	<item name="contact_filter_weixin_item" type="id"/>
+	<item name="contact_filter_recent_item" type="id"/>
+	<item name="contact_filter_note_item" type="id"/>
+	<item name="select_box" type="id"/>
+	<item name="sim_contacts_one" type="id"/>
+	<item name="sim_contacts_two" type="id"/>
+	<item name="contact_filter_city_item" type="id"/>
+	<item name="city_sublist" type="id"/>
+	<item name="contact_filter_company_item" type="id"/>
+	<item name="company_sublist" type="id"/>
+	<item name="contact_filter_group_item" type="id"/>
+	<item name="group_sublist" type="id"/>
+	<item name="tool_section_bing" type="id"/>
+	<item name="tool_section_service" type="id"/>
+	<item name="tool_section_reminder" type="id"/>
+	<item name="tool_section_service_main" type="id"/>
+	<item name="tool_section_service_notify" type="id"/>
+	<item name="tool_section_flowtitle" type="id"/>
+	<item name="tool_section_xiaobingtitle" type="id"/>
+	
+	<item name="contact_filter_item_title" type="id"/>
+	<item name="contact_filter_item_icon" type="id"/>
+	<item name="contact_filter_item_new_mark" type="id"/>
+	<item name="contact_filter_item_highlight" type="id"/>
+	<item name="contact_filter_item_guide" type="id"/>
+	
+	<item name="bing_start_step_one" type="id"/>
+	<item name="bing_start_step_two" type="id"/>
+	<item name="funcbar_input" type="id"/>
+	<item name="phonenumber_input" type="id"/>
+	<item name="phonenumber_attr" type="id"/>
+    <item name="phonenumber_anninationTitle" type="id"/>
+	<item name="tab_text" type="id"/>
+	<item name="hightlight" type="id"/>
+	
+	<item name="loading_circle_id" type="id"/>
+	<item name="loading_text_id" type="id"/>
+	<item name="calllog_list" type="id" />
+        <item name="search_result_empty_list" type="id"/>
+
+    <!-- share item -->
+    <item type="id" name="share_wechat" />
+    <item type="id" name="share_timeline" />
+    <item type="id" name="share_qq" />
+    <item type="id" name="share_qzone" />
+    <item type="id" name="share_sms" />
+    <item type="id" name="share_clipboard" />
+    <item type="id" name="share_weibo" />
+
+    <item name="service_banner" type="id" />
+
+    <item type="id" name="fuwuhao_menu_key_type"/>
+    <item type="id" name="fuwuhao_menu_key_link"/>
+    <item type="id" name="fuwuhao_menu_key_sub_menu"/>
+    <item type="id" name="fuwuhao_menu_key_id"/>
+    <item type="id" name="fuwuhao_menu_key_stat_key"/>
+
+    <item type="id" name="activity_center"/>
+    <item type="id" name="red_packet"/>
+    <item type="id" name="change_skin"/>
+    <item type="id" name="privacy_account"/>
+    <item type="id" name="caller_id"/>
+    <item type="id" name="free_phone"/>
+    <item type="id" name="call_dualsim"/>
+    <item type="id" name="free_phone_account"/>
+    <item type="id" name="cash_account"/>
+    <item type="id" name='traffic_account'/>
+    <item type="id" name="ad_view"/>
+
+    <item type="id" name="change_pad_type"/>
+    <item type="id" name="keyboard_to_paste"/>
+
+    <item type="id" name="person_center_root"/>
+    <item type="id" name="person_center_guide"/>
+    <item type="id" name="hint_one"/>
+    <item type="id" name="toolbar_view_id"/>
+    <item type="id" name="error_image"/>
+    <item type="id" name="error_solution_or_guide_container"/>
+    <item type="id" name="error_guide_arrow"/>
+
+    <!-- image tag id -->
+    <item type="id" name="news_tag"/>
+    <item type="id" name="voip_callback_guide_arrow"/>
+    <item type="id" name="voip_callback_guide_img"/>
+    <item type="id" name="skin_guide_arrow"/>
+    <item type="id" name="skin_guide_img"/>
+    <item type="id" name="skin_indicator"/>
+    <item type="id" name="skin_indicator_arrow"/>
+
+    <item type="id" name="text_switch_view_1" />
+    <item type="id" name="text_switch_view_2" />
+    <item type="id" name="permission_guide_id"/>
+    <item type="id" name="settings_common_cell_right_element_id" />
+    <item type="id" name="right_icon_before_arrow" />
+
+
+    <!-- add for SlideContact.java -->
+    <item type="id" name="starred_background" />
+    <item type="id" name="starred_foreground" />
+    <item type="id" name="starred_name" />
+    <item type="id" name="starred_itemContainer" />
+    <item type="id" name="starred_weixinIcon" />
+    <item type="id" name="starred_favIcon" />
+    <item type="id" name="starred_extraContainer" />
+    <item type="id" name="free_call_guide_contact_button" />
+
+    <item type="id" name="feeds_fond_title"/>
+    <item type="id" name="feeds_subtitle_source"/>
+    <item type="id" name="feeds_subtitle_time"/>
+    <item type="id" name="multi_call_caller_avatar_image" />
+    <item type="id" name="multi_call_callee_avatar_text_icon" />
+
+    <item type="id" name="wallet_index"/>
+
+    <item type="id" name="calllog_item_guide_layer1" />
+    <item type="id" name="calllog_item_guide_layer2" />
+    <item type="id" name="calllog_item_guide_layer3" />
+    <item type="id" name="calllog_item_guide_layer3_top_left" />
+    <item type="id" name="calllog_item_popup_contact" />
+    <item type="id" name="calllog_item_popup_phone" />
+    <item type="id" name="calllog_item_popup_divide" />
+    <item type="id" name="calllog_item_popup_attr" />
+    <item type="id" name="calllog_item_popup_close" />
+    <item type="id" name="calllog_item_popup_btn" />
+    <item type="id" name="calllog_item_popup_bottom" />
+    <item type="id" name="calllog_item_popup_title" />
+    <item type="id" name="calllog_item_popup_layer3" />
+
+    <item type="id" name="redpacket_banner"/>
+    <item type="id" name="redpacket_banner_btn"/>
+    <item type="id" name="redpacket_first_guide_bar"/>
+    <item type="id" name="redpacket_giver_textview" />
+    <item type="id" name="redpacket_first_guide_brand_redpacket" />
+    <item type="id" name="redpacket_first_guide_package_redpacket" />
+    <item type="id" name="redpacket_first_guide_right_container" />
+    <item type="id" name="redpacket_first_guide_right_container_left" />
+    <item type="id" name="redpacket_first_guide_right_container_right" />
+
+</resources>

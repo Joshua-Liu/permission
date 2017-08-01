@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.by.com.permission.layout.TDialogLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_transparency_300"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:id="@+id/board"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/dlg_standard_board_bg"
+        android:paddingBottom="@dimen/dlg_standard_layout_padding" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/banner"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/task_bonus_alert_colorful_banner_height"
+                android:textColor="@color/white_transparency_800"
+                android:textSize="@dimen/dlg_standard_banner_textsize"
+                android:gravity="center"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/banner_close"
+                android:layout_width="@dimen/dlg_standard_close"
+                android:layout_height="@dimen/dlg_standard_close"
+                android:layout_gravity="right|top"
+                android:background="@drawable/dlg_listitem_background"
+                android:textColor="@color/white_transparency_800"
+                android:textSize="@dimen/dlg_standard_close_textsize"
+                android:gravity="center"
+                android:visibility="gone"/>
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/title_container"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dlg_standard_title_height_v6"
+            android:baselineAligned="false"
+            android:background="@drawable/dlg_standard_board_bg" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/dlg_standard_title"
+                android:textColor="@color/dialog_title_color"
+                android:textSize="@dimen/dlg_standard_title_textsize"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="30dp" />
+
+            <TextView
+                android:id="@+id/title_close"
+                android:layout_width="@dimen/dlg_standard_close_v6"
+                android:layout_height="@dimen/dlg_standard_close_v6"
+                android:textColor="@color/black_transparency_500"
+                android:textSize="@dimen/dlg_standard_close_textsize"
+                android:text="G"
+                android:gravity="center"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:visibility="gone" />
+
+
+
+        </RelativeLayout>
+
+        <!-- container -->
+
+        <LinearLayout
+            android:id="@+id/bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingTop="@dimen/dlg_standard_bottom_padding_top_v6"
+            android:paddingLeft="@dimen/dlg_standard_layout_padding"
+            android:paddingRight="@dimen/dlg_standard_layout_padding"
+            android:baselineAligned="false"
+            >
+
+            <!-- set negativeBtn gone if there's only one button -->
+
+            <TextView
+                android:id="@+id/negativeBtn"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dlg_standard_bottom_button_height_v6"
+                android:layout_weight="1"
+                android:background="@drawable/dialog_negative_button_bg_v6"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dlg_standard_bottom_button_padding_lr"
+                android:paddingRight="@dimen/dlg_standard_bottom_button_padding_lr"
+                android:text="@string/cancel"
+                android:textColor="@color/grey_600"
+                android:textSize="@dimen/dlg_standard_bottom_textsize"/>
+
+            <Space
+                android:id="@+id/mid_empty"
+                android:layout_width="20dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/positiveBtn"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dlg_standard_bottom_button_height_v6"
+                android:layout_weight="1"
+                android:background="@drawable/round_rect_button_bg"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dlg_standard_bottom_button_padding_lr"
+                android:paddingRight="@dimen/dlg_standard_bottom_button_padding_lr"
+                android:text="@string/ok"
+                android:textColor="@color/round_rect_button_text_color"
+                android:textSize="@dimen/dlg_standard_bottom_textsize" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.by.com.permission.layout.TDialogLayout>

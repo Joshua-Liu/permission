@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <RelativeLayout
+        android:id="@+id/miui_call_permission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="16dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:orientation="horizontal"
+            android:background="@drawable/permission_setting_bg_white">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/miui5_call_permission_main"
+                    android:textSize="18dp"
+                    android:textColor="@color/black_transparency_850" />
+
+                <TextView
+                    android:id="@+id/alt"
+                    android:layout_below="@id/main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/miui5_call_permission_alt"
+                    android:textSize="12dp"
+                    android:textColor="@color/grey_500" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/switch_turn_on_miui5" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/oppo_permission_setting_step_one"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/miui_call_permission"
+        android:layout_marginTop="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/miui5_call_permission_hint"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:drawableRight="@drawable/permission_setting_pointer"
+        android:gravity="center_vertical"
+        android:drawablePadding="24dp"
+        android:paddingRight="10dp"
+        />
+
+
+</RelativeLayout>

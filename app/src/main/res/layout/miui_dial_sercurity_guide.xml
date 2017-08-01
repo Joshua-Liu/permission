@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/guide"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_transparency_700"
+    >
+    
+    <ImageView
+        android:id="@+id/mask"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="159dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/miui_permission_guide_call" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/mask"
+        >
+
+        <ImageView
+            android:id="@+id/hand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingTop="6dp"
+            android:paddingRight="20dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/miui_hand_top" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/hand"
+            android:paddingTop="16dp"
+            android:gravity="center"
+            android:text="@string/miui_dial_sercurity_guide_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/basic_text_size_4" />
+    </RelativeLayout>
+
+</RelativeLayout>

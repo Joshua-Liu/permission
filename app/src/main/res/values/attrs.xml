@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- for black list, radiobox -->
+    <declare-styleable name="RadioBoxPreference">
+        <attr name="value" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="HorizontalScrollWithArrow">
+        <attr name="left_arrow" format="reference" />
+        <attr name="right_arrow" format="reference" />
+    </declare-styleable>
+
+    <item name="state_backgroundcheckable" type="attr"/>
+
+    <!-- settings page -->
+    <declare-styleable name="SettingsCommonCell">
+        <attr name="mainText" format="string" />
+        <attr name="altText" format="string" />
+        <attr name="altTextColor" format="reference" />
+        <attr name="rightText" format="string" />
+        <attr name="leftIcon" format="reference" />
+        <attr name="defaultBoolValue" format="boolean" />
+        <attr name="defaultStringValue" format="string" />
+        <attr name="defaultIntValue" format="integer" />
+        <attr name="jumpTo" format="string" />
+        <attr name="hasExtra" format="boolean" />
+        <attr name="key" format="string" />
+        <attr name="preferenceKey" format="string" />
+        <attr name="entries" format="reference" />
+        <attr name="entryValues" format="reference" />
+        <attr name="needRightIndicator" format="boolean" />
+        <attr name="needNew" format="boolean" />
+        <attr name="jumpToTitle" format="string" />
+        <attr name="markIcon" format="reference" />
+        <attr name="markText" format="string" />
+        <attr name="settingSkinable" format="boolean" />
+        <attr name="editTitle" format="string"/>
+        <attr name="editContent" format="string"/>
+        <attr name="marginTop" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="Settings">
+        <attr name="settingsTitle" format="string" />
+        <attr name="canBeBack" format="boolean" />
+        <attr name="settingsLayout" format="reference" />
+        <attr name="leftRightMargin" format="dimension" />
+        <attr name="categoryKey" format="string" />
+        <attr name="canBeSkin" format="boolean"/>
+        <attr name="titleBarHighlightColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="TSwitch">
+        <attr name="onText" format="string" />
+        <attr name="offText" format="string" />
+        <attr name="skinable" format="boolean" />
+        <attr name="onTextColorRef" format="reference" />
+        <attr name="offTextColorRef" format="reference" />
+        <attr name="onTextSizeRef" format="reference" />
+        <attr name="offTextSizeRef" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="TSwitchNew">
+        <attr name="skinableNew" format="boolean" />
+        <attr name="switchColorRef" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="scroll_tab">
+        <attr name="tabs" format="reference" />
+        <attr name="tab_count" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="analyze_block">
+        <attr name="block_title" format="string" />
+        <attr name="block_value" format="string" />
+    </declare-styleable>
+    <declare-styleable name="scroll_view">
+        <attr name="count_p_row" format="integer" />
+        <attr name="count_p_colum" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="list_item">
+        <attr name="mainTextSize" format="reference" />
+        <attr name="altTextSize" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="DateTimePicker">
+        <attr name="headerBackgroundColor" format="reference|color" />
+        <attr name="hightlightedTextColor" format="reference|color" />
+        <attr name="buttonBackground" format="reference|color" />
+        <attr name="buttonTextColor" format="reference|color" />
+        <attr name="circleHighlightColor" format="reference|color" />
+        <attr name="defaultTextColor" format="reference|color" />
+        <attr name="selectedDayTextSize" format="reference|dimension" />
+        <attr name="selectedMonthTextSize" format="reference|dimension" />
+        <attr name="selectedYearTextSize" format="reference|dimension" />
+    </declare-styleable>
+    <declare-styleable name="CircularImageView">
+        <attr name="border" format="boolean"></attr>
+        <attr name="border_width" format="dimension"></attr>
+        <attr name="border_color" format="color"></attr>
+        <attr name="shadow" format="boolean"></attr>
+        <attr name="circularImageViewStyle" format="reference"></attr>
+    </declare-styleable>
+
+    <attr name="numberPickerStyle" format="reference" />
+    <attr name="numberPickerUpButtonStyle" format="reference" />
+    <attr name="numberPickerDownButtonStyle" format="reference" />
+    <attr name="numberPickerInputTextStyle" format="reference" />
+
+    <declare-styleable name="NumberPicker">
+        <!-- @hide Color for the solid color background if such for optimized rendering. -->
+        <attr name="solidColor" format="color|reference" />
+        <!-- @hide Whether the number picker supports fligning. -->
+        <attr name="flingable" format="boolean" />
+        <!-- @hide The divider for making the selection area. -->
+        <attr name="selectionDivider" format="reference" />
+        <!-- @hide The height of the selection divider. -->
+        <attr name="selectionDividerHeight" format="dimension" />
+        <!-- @hide The distance of the selection divider -->
+        <attr name="selectionDividersDistance" format="dimension" />
+        <!-- @hide The min height of the NumberPicker. -->
+        <attr name="android:minHeight" />
+        <!-- @hide The max height of the NumberPicker. -->
+        <attr name="android:maxHeight" />
+        <!-- @hide The min width of the NumberPicker. -->
+        <attr name="android:minWidth" />
+        <!-- @hide The max width of the NumberPicker. -->
+        <attr name="android:maxWidth" />
+
+        <!-- We need some extra attributes -->
+        <attr name="android:orientation" />
+        <attr name="android:fadingEdgeLength" />
+        <attr name="lineCount" format = "integer"/>
+    </declare-styleable>
+
+
+    <!-- sencordary funcbar -->
+    <declare-styleable name="FuncBarSecondaryView">
+        <attr name="funcbarTitleText" format="string" />
+        <attr name="funcbarTitleSize" format="dimension" />
+        <attr name="funcbarTitleColor" format="color" />
+        <attr name="funcbarIconColor" format="color|reference" />
+        <attr name="funcbarTitleIcon" format="reference" />
+        <attr name="funcbarRightIcon" format="string"/>
+        <attr name="funcbarRightIconTf" format="string"/>
+        <attr name="funcbarRightText" format="string" />
+        <attr name="funcbarRightSize" format="dimension" />
+        <attr name="funcbarSkinable" format="boolean" />
+    </declare-styleable>
+    
+    
+    <declare-styleable name="ErrorView">
+        <attr name="errorBackgroundColor" format="color|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="TabPageCustomTextView">
+        <attr name="normalTextSize" format="dimension" />
+        <attr name="selectedTextSize" format="dimension" />
+        <attr name="selectedTextBold" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="RatingBar">
+        <!--尺寸值-->
+        <attr name="starImageSize" format="dimension" />
+        <!--星星间距-->
+        <attr name="starPadding" format="dimension" />
+        <!--星星总数-->
+        <attr name="starCount" format="integer" />
+        <!--空白的星星资源文件值-->
+        <attr name="starEmpty" format="reference" />
+        <!--满星资源文件值-->
+        <attr name="starFill" format="reference" />
+        <!--半星资源文件值-->
+        <attr name="starHalf" format="reference" />
+        <!--是否可点击boolean值-->
+        <attr name="clickable" format="boolean" />
+        <!--当前进度float值-->
+        <attr name="starStep" format="float" />
+        <!--每次进度方式的值，整星还是半星-->
+        <attr name="stepSize">
+            <enum name="Half" value="0" />
+            <enum name="Full" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

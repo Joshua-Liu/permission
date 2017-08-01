@@ -1,7 +1,7 @@
 package android.by.com.permission.constant;
 
 public class Constants {
-	public static final String PACKAGE_NAME = "com.cootek.smartdialer";
+	public static final String PACKAGE_NAME = "android.by.com.permission";
 
     public static final String PACKAGE_ANDES_PREFIX = "com.cootek.andes";
 	

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <View
+        android:id="@+id/upper_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/black_transparency_700"
+        />
+
+    <View
+        android:id="@+id/middle_left_shadow"
+        android:layout_width="6dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/upper_shadow"
+        android:background="@color/black_transparency_700"
+        />
+
+    <View
+        android:id="@+id/middle_right_shadow"
+        android:layout_width="6dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/upper_shadow"
+        android:layout_alignParentRight="true"
+        android:background="@color/black_transparency_700"
+        />
+
+    <View
+        android:id="@+id/guide_transparent"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@id/middle_left_shadow"
+        android:layout_toLeftOf="@id/middle_right_shadow"
+        android:layout_height="70dp"
+        android:layout_below="@id/upper_shadow"
+        android:background="@drawable/mask_round_angle"
+        android:layout_centerHorizontal="true"
+         />
+
+    <View
+        android:id="@+id/lower_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/guide_transparent"
+        android:background="@color/black_transparency_700"
+        />
+
+    <ImageView
+        android:id="@+id/indicator"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/guide_transparent"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/miui_hand_top"/>
+
+    <TextView
+        android:id="@+id/guide_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/guide_transparent"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@+id/indicator"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/basic_text_size_4"/>
+</RelativeLayout>

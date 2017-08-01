@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="funcbar_textcolor">@color/grey_900</color>
+    <color name="funcbar_btton_textcolor_normal">@color/grey_900</color>
+    <color name="funcbar_btton_textcolor_pressed">@color/black_transparency_300</color>
+    <color name="highlight_color">@color/light_blue_500</color>
+    <color name="highlight_color_pressed">@color/light_blue_600</color>
+    <color name="highlight_backgroud_color">@color/light_blue_400</color>
+    <color name="highlight_backgroud_color_pressed">@color/light_blue_500</color>
+    <color name="keyboard_input_hint_text_color">@color/black_transparency_200</color>
+    <color name="keyboard_input_main_text_color">@color/black_transparency_900</color>
+    <color name="keyboard_input_minor_text_color">@color/black_transparency_400</color>
+    <color name="phonepad_main_textcolor_normal">@color/black_transparency_600</color>
+    <color name="phonepad_main_textcolor_pressed">@color/white</color>
+    <color name="phonepad_alt_textcolor">@color/black_transparency_500</color>
+    <color name="dialer_mutlisim_two_textcolor">@color/white</color>
+    <color name="inapp_text_color">@color/light_blue_500</color>
+    <color name="inapp_background_color">@color/grey_50</color>
+    <color name="gesture_color">@color/light_blue_500</color>
+    <color name="gesture_pad_bg">@color/white_transparency_800</color>
+    <color name="gesture_icon_color">@color/grey_600</color>
+    <color name="gesture_textcolor">@color/grey_900</color>
+    <color name="gesture_hint_textcolor">@color/grey_200</color>
+    <color name="gesture_button_pressed">@color/black_transparency_50</color>
+    <color name="gesture_divider_color">@color/grey_100</color>
+    <color name="round_rect_button_color_normal">@color/light_blue_500</color>
+    <color name="round_rect_button_color_pressed">@color/light_blue_transparency_100</color>
+    <color name="round_rect_button_text_color">@color/light_blue_500</color>
+    <color name="searchbar_background_color">@color/black_transparency_50</color>
+    <color name="searchbar_hint_text_color">@color/grey_400</color>
+    <color name="searchbar_input_text_color">@color/grey_900</color>
+    <color name="searchbar_detele_icon_color_normal">@color/black_transparency_400</color>
+    <color name="searchbar_detele_icon_color_pressed">@color/black_transparency_600</color>
+    <color name="group_selected_text_color">@color/grey_900</color>
+    <color name="group_unselected_text_color">@color/grey_600</color>
+    <color name="section_index_popup_bg_color">@color/light_blue_100</color>
+    <color name="section_index_popup_text_color">@color/white</color>
+    <color name="section_index_popup_stroke_bg_color">@color/light_blue_100</color>
+    <color name="discovery_selected_text_color">@color/light_blue_500</color>
+    <color name="discovery_unselected_text_color">@color/grey_900</color>
+    <color name="call_status_bar_mask_bg">@color/light_blue_500</color>
+    <color name="me_status_bar_mask_bg">@color/black_transparency_300</color>
+
+</resources>

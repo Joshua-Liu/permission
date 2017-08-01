@@ -2,6 +2,7 @@ package android.by.com.permission.permission;
 
 import android.accessibilityservice.AccessibilityService;
 import android.accessibilityservice.AccessibilityServiceInfo;
+import android.annotation.TargetApi;
 import android.by.com.permission.R;
 import android.by.com.permission.constant.GuideConst;
 import android.by.com.permission.model.ModelManager;
@@ -643,6 +644,7 @@ public class MiuiV6PermissionGuideStrategy extends IPermissionGuideStrategy {
         return stepItem;
     }
 
+    @TargetApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH)
     @Override
     public void handleAccessbilityEvent(AccessibilityEvent event, AccessibilityService service) {
         int eventType = event.getEventType();

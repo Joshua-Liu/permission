@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/funcbar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/funcbar_height"
+    android:background="@drawable/funcbar_bg"
+    android:layout_alignParentTop="true"
+    >
+
+    <TextView
+        android:id="@+id/funcbar_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/funcbar_textcolor"
+        android:textSize="@dimen/funcbar_title_textsize"
+        android:layout_marginTop="@dimen/funcbar_top_padding"
+        android:paddingLeft="80dp"
+        android:paddingRight="80dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/funcbar_top_padding"
+        >
+
+        <TextView
+            android:id="@+id/funcbar_back"
+            style="@style/funcbar_text_icon_style"
+           />
+
+        <Space
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+             />
+
+        <RelativeLayout
+            android:id="@+id/funcbar_title_icon_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+            <TextView
+                android:id="@+id/news_back"
+                android:layout_width="@dimen/plugin_close_width"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="10dp"
+                android:gravity="bottom"
+                android:paddingBottom="11dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/basic_text_size_0" />
+
+            <ImageView
+                android:id="@+id/funcbar_title_icon"
+                android:layout_width="80dp"
+                android:layout_height="22dp"
+                android:layout_marginBottom="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:scaleType="center"/>
+
+            <TextView
+                android:id="@+id/funcbar_title_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:gravity="center_horizontal"
+                android:visibility="gone"
+                android:textSize="17dp" />
+            <TextView
+                android:id="@+id/funcbar_personal_icon"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:textSize="25dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#ffffff" />
+            <ImageView
+                android:id="@+id/icon_red_point"
+                android:layout_height="8dp"
+                android:layout_width="8dp"
+                android:background="@drawable/tl_index_red_point"
+                android:layout_alignTop="@id/funcbar_personal_icon"
+                android:layout_alignRight="@id/funcbar_personal_icon"
+                android:layout_marginLeft="4dp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/funcbar_icon"
+            style="@style/funcbar_text_icon_style"
+            android:layout_gravity="center_vertical"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/funcbar_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="@dimen/funcbar_sidetxt_padding"
+            android:paddingRight="@dimen/funcbar_sidetxt_padding"
+            android:textColor="@color/funcbar_button_color"
+            android:textSize="@dimen/funcbar_sidebtn_textsize"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
